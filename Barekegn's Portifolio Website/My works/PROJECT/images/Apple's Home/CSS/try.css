@@ -1,0 +1,125 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+img{
+  max-width: 100%;
+}
+body {
+  background-color: white;
+}
+.apple-logo a{
+  padding-left: 20px;
+}
+.card-logo a{
+  padding-right: 20px;
+}
+.hdr:hover{
+  font-weight: bold;
+  opacity: 1;
+}
+.hdr {
+  padding-left: 200px;
+  padding-right: 200px;
+  display: flex;
+  background-color: black;
+  text-decoration-color: white;
+  justify-content: space-between;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  list-style-type: none;
+  text-decoration: none;
+  margin-bottom: 30px;
+}
+.hdr li a {
+  color: white;
+  list-style-type: none;
+  text-decoration: none;
+}
+.hdr li img {
+  width: 25%;
+}
+.apple-logo {
+  margin-left: 30px;
+}
+.section1 {
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
+}
+.partT1 {
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+.partT1 p,
+a {
+  font-size: small;
+}
+.partT1 a {
+  list-style-type: none;
+  text-decoration: none;
+}
+.part1.part1img {
+  width: 100%;
+}
+.section2part1 {
+  padding-top: 40px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+.section2part1 a {
+  padding-top: 30px;
+  list-style-type: none;
+  text-decoration: none;
+}
+.section2part1 img {
+  width: 100%;
+  height: 60vh;
+  object-fit: cover;
+}
+.section2part1 h1 {
+  margin-bottom: 7px;
+}
+.section3part1 {
+  background-color: rgb(251, 251, 252);
+  text-align: center;
+  padding-top: 40px;
+}
+.section3part1 a {
+  font-weight: bold;
+  padding-top: 30px;
+  list-style-type: none;
+  text-decoration: none;
+}
+.section3part1 img {
+  width: 100%;
+  height: 60vh;
+  object-fit: cover;
+}
+.section4{
+  background-color: rgb(251, 251, 252);
+  margin-top: 10px;
+}
+.watchandcard{
+  display: flex;
+  text-align: center;
+}
+.watch, .card{
+  width: 50%;
+  text-align: center;
+}
+.wtch img{
+  margin-right: 10px;
+  width: 100%;
+}
+.crd img{
+  margin-left: 10px;
+  width: 100%;
+}
+.watch a, .card a{
+  font-weight: bold;
+ margin-top:  30px;
+  text-decoration: none;
+}

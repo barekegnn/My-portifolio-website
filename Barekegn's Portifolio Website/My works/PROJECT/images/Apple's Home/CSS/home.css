@@ -1,0 +1,295 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+img{
+  max-width: 100%;
+}
+ .body {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+} 
+header {
+  margin-bottom: 30px;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.icons {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  text-decoration-color: white;
+  padding-top: 10px;
+  padding-bottom: 7px;
+}
+.icons li a {
+  color: white;
+  text-decoration: none;
+  font-size: small;
+}
+.icons li img {
+  width: 35%;
+}
+.icn1 {
+  display: flex;
+  padding-left: 7px;
+  color: white;
+}
+.icn1 p {
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.icn2 {
+  padding-right: 7px;
+}
+.section1{
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.s2{
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.s1p1,
+.s1p2,
+.s1p3 {
+  text-align: center;
+}
+.s1p1 p {
+  font-size: small;
+  margin-bottom: 7px;
+}
+.s1p2 h1 {
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 7px;
+}
+.s1p3 h2 {
+  margin-bottom: 5px;
+}
+.pro {
+  text-align: center;
+}
+.ip11 {
+  background-color: black;
+}
+.s2h1 {
+  padding-top: 20px;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  background-color: black;
+}
+.s2p1 {
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  background-color: black;
+  padding-bottom: 10px;
+}
+.s2p2 {
+  color: white;
+  text-align: center;
+  font-size: small;
+  background-color: black;
+}
+.ip11 img {
+  margin-top: 0%;
+  width: 1250px;
+  text-align: center;
+}
+.sc3 {
+  text-align: center;
+  width: 1250px;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.s3i3 {
+  text-align: center;
+  max-width: 1250px;
+}
+.text {
+  padding-top: 50px;
+  margin-bottom: 0%;
+  background-color: rgb(253, 249, 249);
+}
+.s3i3 img {
+  margin-top: 0%;
+  text-align: center;
+  width: 1250px;
+  background-color: white;
+}
+.s3h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.s3p1 {
+  font-size: 15px;
+  font-weight: bold;
+}
+.s3p2 {
+  font-size: small;
+  font-weight: bold;
+}
+.sc4 {
+  display: flex;
+  width: 1250px;
+  margin-top: 50px;
+  background-color: rgb(251, 253, 253);
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.part1 {
+  width: 50%;
+  padding-right: 10px;
+  text-align: center;
+  list-style-type: none;
+  font-weight: bold;
+}
+.part2 {
+  width: 50%;
+  padding-left: 10px;
+  text-align: center;
+  list-style-type: none;
+  font-weight: bold;
+}
+.part1 img {
+  width: 100%;
+  list-style-type: none;
+}
+.part2 img {
+  width: 100%;
+  list-style-type: none;
+}
+.ic3 img {
+  width: 100px;
+  text-align: center;
+}
+.ic4 img {
+  width: 160px;
+  text-align: center;
+}
+.section5 {
+  display: flex;
+  margin-top: 20px;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.servant-logo {
+  text-align: center;
+  padding-top: 210px;
+  list-style-type: none;
+}
+.apple-tv-logo {
+  padding-top: 30px;
+  list-style-type: none;
+}
+.part3 {
+  width: 50%;
+  text-align: center;
+  margin-right: 10px;
+  background-image: url(../images/home/apple-tv-background.jpg);
+  background-size: cover;
+  background-position-x: center;
+}
+.part4 {
+  width: 50%;
+  text-align: center;
+  margin-left: 10px;
+  background-color: black;
+  color: white;
+  margin-right: 0%;
+}
+.part4 .air-pods img {
+  padding-top: 60px;
+  width: fit-content;
+}
+.h1p {
+  padding-top: 30px;
+}
+.h1p h1 {
+  padding-bottom: 10px;
+}
+.section6 {
+  display: flex;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.part5 {
+  width: 50%;
+  background-color: rgb(255, 255, 255);
+  margin-right: 10px;
+}
+
+.part6 {
+  width: 50%;
+  background-color: rgb(255, 255, 255);
+  margin-left: 10px;
+}
+.macbook-pro img {
+  max-width: 100%;
+  padding: 100px, 100px;
+}
+.new-ipad img {
+  max-width: 100%;
+  padding: 100px, 100px;
+}
+.fotr {
+  display: flex;
+  margin-top: 30px;
+  list-style-type: disc;
+}
+.div1 {
+  width: 50%;
+}
+.div2 {
+  width: 50%;
+}
+.div3 {
+  width: 50%;
+}
+.div4 {
+  width: 50%;
+}
+.div5 {
+  width: 50%;
+}
+footer .text {
+  background-color: rgb(247, 248, 248);
+  margin-top: 50px;
+}
+footer {
+  margin-left: 5px;
+  background-color: rgb(247, 248, 248);
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 20px;
+}
+hr {
+  color: rgb(189, 13, 13);
+  animation: alternate;
+  size: 5px;
+}

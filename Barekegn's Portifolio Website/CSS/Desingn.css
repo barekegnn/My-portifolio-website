@@ -1,0 +1,193 @@
+
+body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #121212;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            overflow: hidden;
+        }
+        .header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: #1d1d1d;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+            animation: slideInDown 1s ease-in-out;
+        }
+        .header a {
+          margin-right: 20px;
+            color: #fff;
+            text-decoration: none;
+            margin-left: 20px;
+            padding: 8px 16px;
+            border: 2px solid #00ffdd;
+            border-radius: 4px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .header a:hover {
+            background-color: #00ffdd;
+            color: #121212;
+        }
+        .sidebar {
+            width: 250px;
+            background-color: #1d1d1d;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            position: fixed;
+            top: 50px;
+            bottom: 50px;
+            animation: fadeInLeft 1s ease-in-out;
+        }
+        .sidebar img {
+            width: 150px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+        .sidebar nav {
+            width: 100%;
+        }
+        .sidebar nav a {
+            display: block;
+            padding: 10px 0;
+            color: #bbb;
+            text-decoration: none;
+            text-align: center;
+            transition: color 0.3s;
+        }
+        .sidebar nav a:hover {
+            color: #fff;
+        }
+        .sidebar .social {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+        .sidebar .social a {
+            color: #bbb;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        .sidebar .social a:hover {
+            color: #fff;
+        }
+        .main-content {
+            margin-left: 250px;
+            padding: 100px 20px 60px 20px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            animation: fadeIn 2s ease-in-out;
+        }
+        .main-content h1 {
+            font-size: 3rem;
+            margin: 0;
+            animation: zoomIn 1.5s ease-in-out;
+        }
+        .main-content h1 span {
+            color: #ff0055;
+        }
+        .main-content p {
+            font-size: 1.2rem;
+            color: #bbb;
+            margin-top: 20px;
+            animation: fadeIn 2.5s ease-in-out;
+        }
+        .main-content .cta-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            border: 2px solid #00ffdd;
+            color: #00ffdd;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+            animation: fadeInUp 3s ease-in-out;
+        }
+        .main-content .cta-button:hover {
+            background-color: #00ffdd;
+            color: #121212;
+        }
+        .decoration {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            color: #ff0055;
+        }
+        .footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #1d1d1d;
+            color: #bbb;
+            text-align: center;
+            padding: 10px 0;
+            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+            animation: slideInUp 1s ease-in-out;
+        }
+        @keyframes slideInDown {
+            from {
+                transform: translateY(-100%);
+            }
+            to {
+                transform: translateY(0);
+            }
+        }
+        @keyframes fadeInLeft {
+            from {
+                opacity: 0;
+                transform: translateX(-50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        @keyframes zoomIn {
+            from {
+                transform: scale(0.8);
+                opacity: 0;
+            }
+            to {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        @keyframes slideInUp {
+            from {
+                transform: translateY(100%);
+            }
+            to {
+                transform: translateY(0);
+            }
+        }
